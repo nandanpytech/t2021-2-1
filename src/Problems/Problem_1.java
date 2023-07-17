@@ -5,12 +5,12 @@ public class Problem_1 {
 	public static void main(String[]args) {
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Welcome to Calculator...");
+		
 		System.out.println("Enter number (a)");
 		double a=sc.nextDouble();
-		
 		System.out.println("Enter number (b)");
-		sc.nextLine();
 		double b=sc.nextDouble();
+		
 		System.out.println("Enter type of operation");
 		System.out.println("+ - Addition");
 		System.out.println("- - Substraction");
